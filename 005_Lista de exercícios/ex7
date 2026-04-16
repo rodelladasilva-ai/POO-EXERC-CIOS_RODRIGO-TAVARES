@@ -1,0 +1,12 @@
+<?php
+$notas = [6, 5, 7, 4, 8];
+$aprovados = 0;
+
+foreach ($notas as $nota) {
+    if ($nota >= 6) { 
+        $aprovados++; 
+    }
+}
+
+echo "Total de aprovados: {$aprovados}"; 
+?>
