@@ -1,0 +1,7 @@
+<?php
+$valorCompra = 85.50;
+$valorPago = 100.00;
+$troco = $valorPago - $valorCompra;
+
+echo "O troco a ser devolvido é R$ " . number_format($troco, 2, ',', '.');
+?>

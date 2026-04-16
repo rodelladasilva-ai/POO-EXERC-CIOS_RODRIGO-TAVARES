@@ -1,0 +1,7 @@
+<?php
+$distancia = 400;
+$combustivelGasto = 40;
+$consumo = $distancia / $combustivelGasto;
+
+echo "O consumo médio do veículo foi de {$consumo} km/l";
+?>

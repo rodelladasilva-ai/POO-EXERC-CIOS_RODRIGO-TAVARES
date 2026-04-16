@@ -1,0 +1,12 @@
+<?php
+$nomeCliente = "Bruno";
+$valorProduto = 1000.00;
+$percentualDesconto = 10;
+
+$valorDesconto = $valorProduto * ($percentualDesconto / 100);
+$valorFinal = $valorProduto - $valorDesconto;
+
+echo "O cliente {$nomeCliente} comprou um produto de R$ " . number_format($valorProduto, 2, ',', '.') . 
+     ", recebeu R$ " . number_format($valorDesconto, 2, ',', '.') . 
+     " de desconto e pagará R$ " . number_format($valorFinal, 2, ',', '.');
+?>

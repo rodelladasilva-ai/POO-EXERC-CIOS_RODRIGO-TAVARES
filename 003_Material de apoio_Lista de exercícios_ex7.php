@@ -1,0 +1,7 @@
+<?php
+$base = 15;
+$altura = 30;
+$area = $base * $altura;
+
+echo "A área do terreno é {$area} m²";
+?>
