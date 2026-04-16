@@ -1,0 +1,8 @@
+<?php
+$contador = 1; // Inicia em 1 [cite: 106]
+
+while ($contador <= 10) {
+    echo " {$contador}";
+    $contador++;
+}
+?>
