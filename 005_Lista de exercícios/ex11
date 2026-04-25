@@ -8,5 +8,5 @@ foreach ($numeros as $n) {
     }
 }
 
-echo "O maior número é: {$maior}"; 
+echo "O maior numero e: {$maior}"; 
 ?>
