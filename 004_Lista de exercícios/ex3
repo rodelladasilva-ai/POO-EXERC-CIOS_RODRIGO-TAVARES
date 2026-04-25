@@ -1,8 +1,8 @@
 <?php
 $numero = -5;
 if ($numero >= 0) {
-    echo "Número positivo";
+    echo "Numero positivo";
 } else {
-    echo "Número negativo";
+    echo "Numero negativo";
 }
 ?>
