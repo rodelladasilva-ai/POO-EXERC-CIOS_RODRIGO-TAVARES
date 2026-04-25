@@ -6,5 +6,5 @@ foreach ($numeros as $n) {
     $somaTotal += $n;
 }
 
-echo "A soma total é: {$somaTotal}"; 
+echo "A soma total e: {$somaTotal}"; 
 ?>
