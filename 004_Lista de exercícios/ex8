@@ -1,0 +1,8 @@
+<?php
+$valorCompra = 220.00;
+if ($valorCompra >= 200) {
+    echo "Frete gratis";
+} else {
+    echo "Frete pago";
+}
+?>
