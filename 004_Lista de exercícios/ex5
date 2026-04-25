@@ -1,8 +1,8 @@
 <?php
 $numero = 9;
 if ($numero % 2 == 0) {
-    echo "Número par";
+    echo "Numero par";
 } else {
-    echo "Número ímpar";
+    echo "Numero ímpar";
 }
 ?>
