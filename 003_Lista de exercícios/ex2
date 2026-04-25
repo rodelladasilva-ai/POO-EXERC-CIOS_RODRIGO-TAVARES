@@ -3,5 +3,5 @@ $distancia = 400;
 $combustivelGasto = 40;
 $consumo = $distancia / $combustivelGasto;
 
-echo "O consumo médio do veículo foi de {$consumo} km/l";
+echo "O consumo medio do veiculo foi de {$consumo} km/l";
 ?>
