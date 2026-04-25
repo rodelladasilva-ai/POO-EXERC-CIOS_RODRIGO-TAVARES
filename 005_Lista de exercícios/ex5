@@ -2,7 +2,7 @@
 $contador = 1;
 
 do {
-    echo " Número:{$contador}"; 
+    echo " Numero:{$contador}"; 
     $contador++;
 } while ($contador <= 5); 
 ?>
