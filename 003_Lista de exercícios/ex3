@@ -4,5 +4,5 @@ $nota2 = 7.5;
 $nota3 = 10.0;
 $media = ($nota1 + $nota2 + $nota3) / 3;
 
-echo "A média final do aluno é " . number_format($media, 1);
+echo "A media final do aluno e " . number_format($media, 1);
 ?>
