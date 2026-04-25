@@ -1,0 +1,11 @@
+<?php
+$nota = 7.0;
+$frequencia = 80;
+if ($nota >= 6 && $frequencia >= 75) {
+    echo "O aluno esta aprovado";
+} elseif ($nota >= 6 && $frequencia < 75) {
+    echo "O aluno esta reprovado por falta";
+} else {
+    echo "O aluno esta reprovado por nota";
+}
+?>
