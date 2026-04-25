@@ -1,0 +1,16 @@
+<?php
+$salarioBase = 3000.00;
+$anosEmpresa = 6;
+$atingiuMeta = true;
+
+if ($anosEmpresa > 5 && $atingiuMeta) {
+    $bonus = $salarioBase * 0.20;
+} elseif ($anosEmpresa >= 2 && $atingiuMeta) {
+    $bonus = $salarioBase * 0.10;
+} else {
+    $bonus = 0;
+}
+
+$salarioFinal = $salarioBase + $bonus;
+echo "O salario final e R$ " . number_format($salarioFinal, 2, ',', '.');
+?>
