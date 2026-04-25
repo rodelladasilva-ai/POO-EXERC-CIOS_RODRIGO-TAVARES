@@ -1,0 +1,9 @@
+<?php
+$idade = 18;
+$acompanhado = false;
+if ($idade >= 18 || $acompanhado) {
+    echo "Entrada permitida";
+} else {
+    echo "Entrada negada";
+}
+?>
