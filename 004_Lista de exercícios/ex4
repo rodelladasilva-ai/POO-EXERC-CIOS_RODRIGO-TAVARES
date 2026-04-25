@@ -1,0 +1,9 @@
+<?php
+$valorCompra = 150.00;
+if ($valorCompra >= 100) {
+    $valorFinal = $valorCompra * 0.90;
+} else {
+    $valorFinal = $valorCompra;
+}
+echo "Valor final: R$ " . number_format($valorFinal, 2, ',', '.');
+?>
