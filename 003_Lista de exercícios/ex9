@@ -4,5 +4,5 @@ $taxaJuros = 0.10;
 $tempo = 12;
 $juros = $capital * $taxaJuros * $tempo;
 
-echo "O valor do juro gerado é R$ " . number_format($juros, 2, ',', '.');
+echo "O valor do juro gerado e R$ " . number_format($juros, 2, ',', '.');
 ?>
