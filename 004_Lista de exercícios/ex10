@@ -1,0 +1,8 @@
+<?php
+$bloqueado = false;
+if (!$bloqueado) { 
+    echo "Acesso permitido";
+} else {
+    echo "Acesso negado";
+}
+?>
