@@ -1,0 +1,12 @@
+<?php
+$temperatura = 22;
+if ($temperatura < 15) {
+    echo "Frio";
+} elseif ($temperatura >= 15 && $temperatura <= 25) {
+    echo "Agradavel";
+} elseif ($temperatura > 25 && $temperatura <= 35) {
+    echo "Quente";
+} else {
+    echo "Muito quente";
+}
+?>
