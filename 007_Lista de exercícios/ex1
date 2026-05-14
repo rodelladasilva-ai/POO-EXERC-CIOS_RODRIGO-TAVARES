@@ -1,0 +1,19 @@
+<?php
+class Livro {
+    public $titulo;
+    public $autor;
+    public $numeroPaginas;
+    public $preco;
+
+    public function exibir() {
+        return "\"{$this->titulo}\" de {$this->autor} | {$this->numeroPaginas} páginas | R$ " . number_format($this->preco, 2, ',', '.');
+    }
+}
+
+$livro = new Livro();
+$livro->titulo = "O Senhor dos Anéis";
+$livro->autor = "J.R.R. Tolkien";
+$livro->numeroPaginas = 1200;
+$livro->preco = 150.50;
+echo $livro->exibir() . "\n";
+?>
