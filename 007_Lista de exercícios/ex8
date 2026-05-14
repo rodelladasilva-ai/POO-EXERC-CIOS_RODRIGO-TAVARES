@@ -1,0 +1,21 @@
+<?php
+class Filme {
+    public $titulo;
+    public $genero;
+    public $duracaoMinutos;
+    public $notaAvaliacao;
+
+    public function exibir() {
+        $horas = floor($this->duracaoMinutos / 60);
+        $minutos = $this->duracaoMinutos % 60;
+        return "Título: {$this->titulo} | Gênero: {$this->genero} | Duração: {$horas}h{$minutos}min | Nota: {$this->notaAvaliacao}";
+    }
+}
+
+$filme = new Filme();
+$filme->titulo = "Interestelar";
+$filme->genero = "Ficção Científica";
+$filme->duracaoMinutos = 169;
+$filme->notaAvaliacao = 9.5;
+echo $filme->exibir() . "\n";
+?>
